@@ -25,15 +25,16 @@ const Navbar = () => {
             <div className="nav-list">
                 <NavMenu>
                     <ul>
-                        <li className="pp"><NavLink to="/"><a href="#">Home</a></NavLink></li>
-                        <li className="pp"><NavLink to="/explore"><a href="#">Explore</a></NavLink></li>
-                        <li className="pp"><NavLink to="/about"><a href="#">About Us</a></NavLink></li>
-                        <li className="pp"><NavLink to="/contact"><a href="#">Contact Us</a></NavLink></li>
+                        <li className="pp"><NavLink to="/newdm">Home</NavLink></li>
+                        <li className="pp"><NavLink to="/explore">Explore</NavLink></li>
+                        <li className="pp"><NavLink to="/about">About Us</NavLink></li>
+                        <li className="pp"><NavLink to="/contact">Contact Us</NavLink></li>
                     </ul>
                 </NavMenu>
             </div>
         </Nav>
     );
 };
+
 
 export default Navbar;
